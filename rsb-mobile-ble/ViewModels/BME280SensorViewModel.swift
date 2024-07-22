@@ -112,7 +112,7 @@ class BME280SensorViewModel: SensorViewModel {
             "pressure": "\(response.pressureInHG)",
         ]
 
-        Network().POST(url: "https://www.rsb0.com/temperature/esp32.php", json: json)
+        Network().POST(url: "<your url here>", json: json)
 
         response.lastSent = Date()
     }
