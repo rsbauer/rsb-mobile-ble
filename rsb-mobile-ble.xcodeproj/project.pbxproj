@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66008C572C3503E000B95F43 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66008C562C3503E000B95F43 /* Network.swift */; };
 		663845612C28FEFF00805C27 /* rsb_mobile_bleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663845602C28FEFF00805C27 /* rsb_mobile_bleApp.swift */; };
 		663845632C28FEFF00805C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663845622C28FEFF00805C27 /* ContentView.swift */; };
 		663845652C28FF0100805C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663845642C28FF0100805C27 /* Assets.xcassets */; };
@@ -14,6 +15,16 @@
 		663845722C28FF0100805C27 /* rsb_mobile_bleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663845712C28FF0100805C27 /* rsb_mobile_bleTests.swift */; };
 		6638457C2C28FF0100805C27 /* rsb_mobile_bleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6638457B2C28FF0100805C27 /* rsb_mobile_bleUITests.swift */; };
 		6638457E2C28FF0100805C27 /* rsb_mobile_bleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6638457D2C28FF0100805C27 /* rsb_mobile_bleUITestsLaunchTests.swift */; };
+		663845902C29034E00805C27 /* CBUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6638458F2C29034E00805C27 /* CBUUIDs.swift */; };
+		663845922C29040D00805C27 /* MobileBLECentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663845912C29040D00805C27 /* MobileBLECentralManager.swift */; };
+		663845942C29047F00805C27 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663845932C29047F00805C27 /* BluetoothManager.swift */; };
+		663845962C2913DD00805C27 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663845952C2913DD00805C27 /* PeripheralManager.swift */; };
+		66A0243F2C4C9C5F00FC9F13 /* BME280SensorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A0243E2C4C9C5F00FC9F13 /* BME280SensorModel.swift */; };
+		66BA29422C2FAEAA000E73BE /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA29412C2FAEAA000E73BE /* ViewModifiers.swift */; };
+		66BA29442C304F6B000E73BE /* BME280SensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA29432C304F6B000E73BE /* BME280SensorViewModel.swift */; };
+		66BA29462C305005000E73BE /* AppStateNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA29452C305005000E73BE /* AppStateNotificationService.swift */; };
+		66BA29482C3050B2000E73BE /* MockSensorViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA29472C3050B2000E73BE /* MockSensorViewModal.swift */; };
+		66BA294B2C3051D0000E73BE /* SensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA294A2C3051D0000E73BE /* SensorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66008C552C34D92600B95F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		66008C562C3503E000B95F43 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		6638455D2C28FEFF00805C27 /* rsb-mobile-ble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rsb-mobile-ble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		663845602C28FEFF00805C27 /* rsb_mobile_bleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rsb_mobile_bleApp.swift; sourceTree = "<group>"; };
 		663845622C28FEFF00805C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,16 @@
 		663845772C28FF0100805C27 /* rsb-mobile-bleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rsb-mobile-bleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6638457B2C28FF0100805C27 /* rsb_mobile_bleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rsb_mobile_bleUITests.swift; sourceTree = "<group>"; };
 		6638457D2C28FF0100805C27 /* rsb_mobile_bleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rsb_mobile_bleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6638458F2C29034E00805C27 /* CBUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBUUIDs.swift; sourceTree = "<group>"; };
+		663845912C29040D00805C27 /* MobileBLECentralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileBLECentralManager.swift; sourceTree = "<group>"; };
+		663845932C29047F00805C27 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		663845952C2913DD00805C27 /* PeripheralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
+		66A0243E2C4C9C5F00FC9F13 /* BME280SensorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BME280SensorModel.swift; sourceTree = "<group>"; };
+		66BA29412C2FAEAA000E73BE /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		66BA29432C304F6B000E73BE /* BME280SensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BME280SensorViewModel.swift; sourceTree = "<group>"; };
+		66BA29452C305005000E73BE /* AppStateNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateNotificationService.swift; sourceTree = "<group>"; };
+		66BA29472C3050B2000E73BE /* MockSensorViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSensorViewModal.swift; sourceTree = "<group>"; };
+		66BA294A2C3051D0000E73BE /* SensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +117,14 @@
 		6638455F2C28FEFF00805C27 /* rsb-mobile-ble */ = {
 			isa = PBXGroup;
 			children = (
+				66008C552C34D92600B95F43 /* Info.plist */,
+				66BA29492C3051BA000E73BE /* Protocols */,
+				6638458E2C29033700805C27 /* Support */,
+				6638458D2C29000300805C27 /* Views */,
+				6638458C2C28FFFA00805C27 /* Models */,
+				6638458B2C28FFF400805C27 /* ViewModels */,
+				6638458A2C28FFEA00805C27 /* Controllers */,
 				663845602C28FEFF00805C27 /* rsb_mobile_bleApp.swift */,
-				663845622C28FEFF00805C27 /* ContentView.swift */,
 				663845642C28FF0100805C27 /* Assets.xcassets */,
 				663845662C28FF0100805C27 /* Preview Content */,
 			);
@@ -125,6 +154,60 @@
 				6638457D2C28FF0100805C27 /* rsb_mobile_bleUITestsLaunchTests.swift */,
 			);
 			path = "rsb-mobile-bleUITests";
+			sourceTree = "<group>";
+		};
+		6638458A2C28FFEA00805C27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6638458B2C28FFF400805C27 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				66BA29432C304F6B000E73BE /* BME280SensorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6638458C2C28FFFA00805C27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66A0243E2C4C9C5F00FC9F13 /* BME280SensorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6638458D2C29000300805C27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				663845622C28FEFF00805C27 /* ContentView.swift */,
+				66BA29472C3050B2000E73BE /* MockSensorViewModal.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6638458E2C29033700805C27 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6638458F2C29034E00805C27 /* CBUUIDs.swift */,
+				663845912C29040D00805C27 /* MobileBLECentralManager.swift */,
+				663845932C29047F00805C27 /* BluetoothManager.swift */,
+				663845952C2913DD00805C27 /* PeripheralManager.swift */,
+				66BA29412C2FAEAA000E73BE /* ViewModifiers.swift */,
+				66BA29452C305005000E73BE /* AppStateNotificationService.swift */,
+				66008C562C3503E000B95F43 /* Network.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		66BA29492C3051BA000E73BE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				66BA294A2C3051D0000E73BE /* SensorViewModel.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BA29462C305005000E73BE /* AppStateNotificationService.swift in Sources */,
 				663845632C28FEFF00805C27 /* ContentView.swift in Sources */,
+				66008C572C3503E000B95F43 /* Network.swift in Sources */,
+				66BA29422C2FAEAA000E73BE /* ViewModifiers.swift in Sources */,
+				66BA29442C304F6B000E73BE /* BME280SensorViewModel.swift in Sources */,
+				66BA29482C3050B2000E73BE /* MockSensorViewModal.swift in Sources */,
 				663845612C28FEFF00805C27 /* rsb_mobile_bleApp.swift in Sources */,
+				66A0243F2C4C9C5F00FC9F13 /* BME280SensorModel.swift in Sources */,
+				66BA294B2C3051D0000E73BE /* SensorViewModel.swift in Sources */,
+				663845902C29034E00805C27 /* CBUUIDs.swift in Sources */,
+				663845962C2913DD00805C27 /* PeripheralManager.swift in Sources */,
+				663845922C29040D00805C27 /* MobileBLECentralManager.swift in Sources */,
+				663845942C29047F00805C27 /* BluetoothManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +519,11 @@
 				DEVELOPMENT_TEAM = HCG5E33E5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rsb-mobile-ble/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Can this app use Bluetooth?";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Can this app communicate with Bluetooth peripherals?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +553,11 @@
 				DEVELOPMENT_TEAM = HCG5E33E5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rsb-mobile-ble/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Can this app use Bluetooth?";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Can this app communicate with Bluetooth peripherals?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
