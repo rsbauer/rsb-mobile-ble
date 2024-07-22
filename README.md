@@ -17,7 +17,7 @@ SwiftUI is used and a little bit of the MVVM is used, although likely not optima
 
 ### Screen Shots
 
-<img src="https://raw.githubusercontent.com/rsbauer/rsb-mobile-ble/main/images/screenshot.png" width="300">
+<img src="https://raw.githubusercontent.com/rsbauer/rsb-mobile-ble/main/images/screenshot.PNG" width="300">
 
 ### Usage
 
