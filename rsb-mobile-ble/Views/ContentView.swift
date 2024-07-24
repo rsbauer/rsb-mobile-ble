@@ -14,12 +14,14 @@ struct ContentView<ViewModel>: View where ViewModel: SensorViewModel {
     @ObservedObject var model: ViewModel
 
     var body: some View {
-        VStack {
-            ForEach(model.sensed) { sensor in
-                SensorView(model: sensor)
+        ScrollView {
+            VStack {
+                ForEach(model.sensed) { sensor in
+                    SensorView(model: sensor)
+                }
             }
+            .padding()
         }
-        .padding()
     }
 }
 
